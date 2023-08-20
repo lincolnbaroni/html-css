@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: arial, helvetica, sans serif;
+            background-color: rgb(114, 114, 216);
+            margin: 0px;
+        }
+
+        header {
+            background-color: 
+            padding: 5px;
+        }
+
+        nav {
+            background-color: rgb(146, 146, 146);
+            padding: 3px; 
+            box-shadow: 2px 2px 2px black;
+            margin: 5px    
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin: 15px;
+        }
+
+        #assuntos {
+            text-align: center;
+            background-color: rgb(146, 146, 146);
+            color: white;
+            border-style: solid;
+            border-radius: 10px;
+            margin: 5px;
+        }
+
+        main > #noticias {
+            background-color: rgb(146, 146, 146);
+            margin: 7px;
+            padding: 3px;
+            border-radius: 10px 0px;
+            box-shadow: 3px 2px 4px black;
+        }
+
+        aside {
+            background-color: rgb(97, 145, 105);
+        }
+
+        footer {
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 4px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 45px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Clique aqui</a>
+            <a href="">Clique aqui</a>
+            <a href="">Clique aqui</a>
+            <a href="">Clique aqui</a>
+        </nav>
+        <main>
+             <section id="assuntos">
+                <p>Politica / Futebol / Apostas / Carros / Motos</p>
+             </section>
+             <section id="noticias">
+                <article>
+                    <h2>Noticia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus libero magni rem praesentium nemo, totam accusantium delectus? Inventore consectetur veritatis aliquam accusamus ducimus sapiente, incidunt laboriosam impedit eius ut. Sit.</p>
+                    <aside>
+                        <p>Artigo escrito por Jose da Silva</p>
+                    </aside>
+
+                </article>
+
+             </section>
+        </main>
+    </header>
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
