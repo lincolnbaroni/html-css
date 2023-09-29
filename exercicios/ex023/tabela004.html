@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<style>
+    table {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+    }
+    caption {
+        padding: 5px;
+        border: solid 1px black;
+        text-align: center;
+        background-color: rgba(0, 191, 255, 0.548);
+        font-size: 1.2em;
+        font-weight: bolder;
+    }
+
+    th {
+        padding: 5px;
+        border: solid 1px black;
+        text-align: center;
+    }
+
+    td {
+        padding: 5px;
+        border: solid 1px black;
+        text-align: center;
+    }
+
+    thead {
+        font-weight: bolder;
+    }
+
+    td.negrito {
+        font-weight: bolder;
+    }
+</style>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th>Grupo</th>
+                <th>Nomes</th>
+                <th colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3" class="negrito">Mulheres</td>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Ana Beatriz Santos</td>
+                <td>Beatriz</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+            
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="negrito">Homens</td>
+                <td>Bruno Mendonça</td>
+                <td>Incocaveis</td>
+                <td>Amnesia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Motas</td>
+                <td>Star Wars 5</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+            </tr>
+        </tbody>
+        
+
+    </table>
+</body>
+</html>
