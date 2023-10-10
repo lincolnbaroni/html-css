@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14</title>
+</head>
+<style>
+    table {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 600px;
+        border-collapse: collapse;
+    }
+
+    caption {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    th {
+        border: 1px solid black;
+        padding: 5px;
+        background-color: rgb(117, 117, 117);
+        color: white;
+        font-weight: bolder;
+    }
+
+    td {
+        border: 1px solid black;
+        text-align: left;
+        padding: 5px;
+    }
+
+    tr > td.humanas {
+        text-align: center;
+        background-color: rgb(117, 117, 117);
+        color: white;
+    }
+
+    td.exatas {
+        text-align: center;
+        background-color: rgb(117, 117, 117);
+        color: white;
+    }
+
+    td.centro {
+        text-align: center;
+    }
+
+</style>
+<body>
+    <table>
+        <caption>Avaliação Alunos</caption>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="colgroup">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="colgroup">Média</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+        </thead>              
+                
+            <tbody>
+                </tr>
+                <tr>
+                    <th rowspan="4" scope="rowgroup">Exatas</th>
+                    <td>Matemática</td>
+                    <td class="centro">00.00</td>
+                    <td class="centro">00.00</td>
+                    <td class="centro">00.00</td>
+                </tr>
+                <tr>
+                    <td>Física</td>
+                    <td class="centro">00.00</td>
+                    <td class="centro">00.00</td>
+                    <td class="centro">00.00</td>
+                </tr>
+                <tr>
+                    <td>Química</td>
+                    <td class="centro">00.00</td>
+                    <td class="centro">00.00</td>
+                    <td class="centro">00.00</td>
+                </tr>
+                <tr>
+                    <td>Bilogia</td>
+                    <td class="centro">00.00</td>
+                    <td class="centro">00.00</td>
+                    <td class="centro">00.00</td>
+                </tr>
+                <tr>
+                    <th colspan="4" scope="row">Média de Exatas</th>
+                    <td class="exatas">00.00</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" scope="row">Humanas</th>
+                    <td>História</td>
+                    <td class="centro">00.00</td>
+                    <td class="centro">00.00</td>
+                    <td class="centro">00.00</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td class="centro">00.00</td>
+                    <td class="centro">00.00</td>
+                    <td class="centro">00.00</td>
+                </tr>
+                <tr>
+                    <th colspan="4" scope="row">Média de Humanas</th>
+                    <td class="humanas">00.00</td>
+                </tr>
+            </tbody>
+        
+    </table>
+</body>
+</html>
